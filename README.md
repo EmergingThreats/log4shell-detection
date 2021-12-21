@@ -156,6 +156,9 @@ Engine's configuration.
 | 2034805 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed M2 (Outbound) (CVE-2021-44228) |
 | 2034806 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (Outbound) (CVE-2021-44228)    |
 | 2034807 | ET EXPLOIT Apache log4j RCE Attempt - AWS Access Key Disclosure (Outbound) (CVE-2021-44228)                   |
+| 2034834 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (udp) (Outbound) (CVE-2021-44228)       |
+| 2034835 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (tcp) (Outbound) (CVE-2021-44228)       |
+| 2034836 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (Outbound) (CVE-2021-44228)             |
 
 </details>
 
@@ -187,34 +190,34 @@ Emerging Threats has created the following detections for commonly used Payload 
 | 2034669 | ET POLICY dnslog .cn Observed in DNS Query                                                                          |
 | 2034670 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (bindsearchlib .com                        |
 | 2034747 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (rce .ee)                                  |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (log4j .binaryedge .io)            |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (log4shell .huntress .com)         |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (kryptoslogic-cve-2021-44228 .com) |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (.l4j .canarytokens .com)	         |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (ceye .io)                                 |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (oob .li)                                  |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (pwn .af)                                  |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (notburpcollaborator .net)                 |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (scannermcscanface-edgescan .com)          |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (service .exfil .site)                     |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (scanworld .net)                           |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (dns .cyberwar .nl)                        |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (log .exposedbotnets .ru)                  |
-| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (leakix .net)                              |
+| 2034819 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (log4j .binaryedge .io)            |
+| 2034820 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (log4shell .huntress .com)         |
+| 2034821 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (kryptoslogic-cve-2021-44228 .com) |
+| 2034832 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (.l4j .canarytokens .com)	         |
+| 2034822 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (ceye .io)                                 |
+| 2034823 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (oob .li)                                  |
+| 2034824 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (pwn .af)                                  |
+| 2034825 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (notburpcollaborator .net)                 |
+| 2034826 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (scannermcscanface-edgescan .com)          |
+| 2034827 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (service .exfil .site)                     |
+| 2034828 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (scanworld .net)                           |
+| 2034829 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (dns .cyberwar .nl)                        |
+| 2034830 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (log .exposedbotnets .ru)                  |
+| 2034831 | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (leakix .net)                              |
 
 ## LDAP
 
-| sid     | msg                                                                         | Notes                 |
-|---------|-----------------------------------------------------------------------------|-----------------------|
-| 2034704 | ET POLICY Anonymous LDAPv3 Bind Request Outbound                            | sets flowbit          |
-| 2034705 | ET POLICY Successful Anonymous LDAPv3 Bind Request Outbound                 | depends on `2034704`  |
-| 2034722 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response      |                       |
-| 2034769 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response M2   |                       |
-| 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704`  |
-| 2034812 | ET POLICY Non-Anonymous LDAPv3 Bind Request Outbound                        | sets flowbit          |
-| 2034771 | ET POLICY Successful Non-Anonymous LDAPv3 Bind Request Outbound             | depends on `2034812`  |
-| 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034812`  |
-| TDB     | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                       |
+| sid     | msg                                                                         | Notes                |
+|---------|-----------------------------------------------------------------------------|----------------------|
+| 2034704 | ET POLICY Anonymous LDAPv3 Bind Request Outbound                            | sets flowbit         |
+| 2034705 | ET POLICY Successful Anonymous LDAPv3 Bind Request Outbound                 | depends on `2034704` |
+| 2034722 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response      |                      |
+| 2034769 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response M2   |                      |
+| 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704` |
+| 2034812 | ET POLICY Non-Anonymous LDAPv3 Bind Request Outbound                        | sets flowbit         |
+| 2034771 | ET POLICY Successful Non-Anonymous LDAPv3 Bind Request Outbound             | depends on `2034812` |
+| 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034812` |
+| 2034818 | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                      |
 
 ## LDAPS
 
@@ -253,10 +256,10 @@ This class of signatures is designed to detect when not using the latest version
 | 2028867 | ET POLICY Vulnerable Java Version 11.0.x Detected |
 | 2028868 | ET POLICY Vulnerable Java Version 12.0.x Detected |
 | 2028869 | ET POLICY Vulnerable Java Version 13.0.x Detected |
-| TBD     | ET POLICY Vulnerable Java Version 14.0.x Detected |
-| TBD     | ET POLICY Vulnerable Java Version 15.0.x Detected |
-| TBD     | ET POLICY Vulnerable Java Version 16.0.x Detected |
-| TBD     | ET POLICY Vulnerable Java Version 17.0.x Detected |
+| 2034814 | ET POLICY Vulnerable Java Version 14.0.x Detected |
+| 2034815 | ET POLICY Vulnerable Java Version 15.0.x Detected |
+| 2034816 | ET POLICY Vulnerable Java Version 16.0.x Detected |
+| 2034817 | ET POLICY Vulnerable Java Version 17.0.x Detected |
                                                                             
 
 ## RMI
