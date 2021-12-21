@@ -190,6 +190,7 @@ Emerging Threats has created the following detections for commonly used Payload 
 | TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (log4j .binaryedge .io)            |
 | TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (log4shell .huntress .com)         |
 | TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (kryptoslogic-cve-2021-44228 .com) |
+| TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Security Scanner Domain (.l4j .canarytokens .com)	         |
 | TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (ceye .io)                                 |
 | TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (oob .li)                                  |
 | TBD     | ET ATTACK_RESPONSE DNS Query for Observed CVE-2021-44228 Callback Domain (pwn .af)                                  |
@@ -203,17 +204,17 @@ Emerging Threats has created the following detections for commonly used Payload 
 
 ## LDAP
 
-| sid     | msg                                                                         | Notes                |
-|---------|-----------------------------------------------------------------------------|----------------------|
-| 2034704 | ET POLICY Anonymous LDAPv3 Bind Request Outbound                            | sets flowbit         |
-| 2034705 | ET POLICY Successful Anonymous LDAPv3 Bind Request Outbound                 | depends on `2034704` |
-| 2034722 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response      |                      |
-| 2034769 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response M2   |                      |
-| 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704` |
-| 2034771 | ET POLICY Successful Non-Anonymous LDAPv3 Bind Request Outbound             | sets flowbit         |
-| 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034771` |
-| 2034812 | ET POLICY Non-Anonymous LDAPv3 Bind Request Outbound                        | depends on `2034771` |
-| TDB     | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                      |
+| sid     | msg                                                                         | Notes                 |
+|---------|-----------------------------------------------------------------------------|-----------------------|
+| 2034704 | ET POLICY Anonymous LDAPv3 Bind Request Outbound                            | sets flowbit          |
+| 2034705 | ET POLICY Successful Anonymous LDAPv3 Bind Request Outbound                 | depends on `2034704`  |
+| 2034722 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response      |                       |
+| 2034769 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response M2   |                       |
+| 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704`  |
+| 2034812 | ET POLICY Non-Anonymous LDAPv3 Bind Request Outbound                        | sets flowbit          |
+| 2034771 | ET POLICY Successful Non-Anonymous LDAPv3 Bind Request Outbound             | depends on `2034812`  |
+| 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034812`  |
+| TDB     | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                       |
 
 ## LDAPS
 
@@ -284,6 +285,7 @@ For the initial environments for testing
 For providing pcaps for signature creation  
 - [SLASH30Miata](https://twitter.com/SLASH30Miata)
 - Juniper Threat Labs
+- [GreyNoise](https://twitter.com/GreyNoiseIO)
 
 For tools and directions used in testing environments  
 - [vulhub](https://github.com/vulhub/vulhub/blob/ab2cbc517fcabaaf0c8f07a03b7947b795c8dc9a/log4j/CVE-2021-44228/README.md)
