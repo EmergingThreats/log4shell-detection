@@ -112,7 +112,7 @@ set to `$HOME_NET` while the *destination* host variable is `any`.
 In order for these rules to fire correctly, the `$HOME_NET` variables _must_ be correctly defined within the IDS 
 Engine's configuration.
 
-<details><Summary>Click to expand list of 40 Signatures</Summary>
+<details><Summary>Click to expand list of 43 Signatures</Summary>
 
 | sid     | msg                                                                                                           |
 |---------|---------------------------------------------------------------------------------------------------------------|
@@ -207,6 +207,10 @@ Emerging Threats has created the following detections for commonly used Payload 
 
 ## LDAP
 
+Detailed LDAP detection including screenshots of alerting traffic can be found in the 
+[LDAP Detection Details](detection_details/LDAP.md).  These rules are designed to alert on the connection to and 
+response from "malicious ldap" servers. 
+
 | sid     | msg                                                                         | Notes                |
 |---------|-----------------------------------------------------------------------------|----------------------|
 | 2034704 | ET POLICY Anonymous LDAPv3 Bind Request Outbound                            | sets flowbit         |
@@ -221,6 +225,8 @@ Emerging Threats has created the following detections for commonly used Payload 
 
 ## LDAPS
 
+Due to the nature of LDAPS, payload detection is not feasable. However, 
+
 | sid     | msg                                                           | Notes                |
 |---------|---------------------------------------------------------------|----------------------|
 | 2034719 | ET POLICY LDAPSv3 LDAPS_START_TLS Request Outbound            | sets flowbit         |
@@ -229,8 +235,10 @@ Emerging Threats has created the following detections for commonly used Payload 
 
 ## Java Class Download
 These signatures, which have existed for several years, alert on Java downloading additional Class files or Serialized 
-Data from a webserver. This method was observed during the initial use of the `jdni:ldap://` attack string which would 
-result in the fetching of a payload via HTTP/HTTPS.
+data from a webserver. This method was observed during the initial use of the `jdni:ldap://` attack string which would 
+result in the fetching of a Java payload via HTTP/HTTPS.
+
+Details of this detection method can be found in the [Java Payloads Detection Details](detection_details/JavaPayloads.md) 
 
 | sid     | msg                                                     | Notes                                |
 |---------|---------------------------------------------------------|--------------------------------------|
@@ -289,6 +297,7 @@ For providing pcaps for signature creation
 - [SLASH30Miata](https://twitter.com/SLASH30Miata)
 - Juniper Threat Labs
 - [GreyNoise](https://twitter.com/GreyNoiseIO)
+- [Cloudshark](https://www.cloudshark.org/captures/fe73350d9a3d)
 
 For tools and directions used in testing environments  
 - [vulhub](https://github.com/vulhub/vulhub/blob/ab2cbc517fcabaaf0c8f07a03b7947b795c8dc9a/log4j/CVE-2021-44228/README.md)
