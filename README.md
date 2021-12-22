@@ -225,7 +225,8 @@ response from "malicious ldap" servers.
 
 ## LDAPS
 
-Due to the nature of LDAPS, payload detection is not feasable. However, 
+Due to the nature of LDAPS, payload detection is not feasible. However, signatures have been created for the use of 
+LDAPS with external networks.
 
 | sid     | msg                                                           | Notes                |
 |---------|---------------------------------------------------------------|----------------------|
