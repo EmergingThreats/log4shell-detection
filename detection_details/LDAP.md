@@ -43,8 +43,8 @@ These signatures were created based on observed malicious samples.
 These Signatures are designed to detect broadly Java objects being returned from LDAP and have been created in effort 
 to reduce false negatives. 
 
-| sid     | msg                                                                         | Note                 | Detection Screenshot               |
-|---------|-----------------------------------------------------------------------------|----------------------|------------------------------------|
-| 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704` | [2034770](LDAP/ldap_javaClass.png) |
-| 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034812` | [2034772](LDAP/ldap_javaClass.png) |
-| 2034818 | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                      | [2034818](LDAP/ldap_javaClass.png) |
+| sid     | msg                                                                         | Note                 | Detection Screenshot                     |
+|---------|-----------------------------------------------------------------------------|----------------------|------------------------------------------|
+| 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704` | [2034770](LDAP/ldap_javaClass.png)       |
+| 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034812` | [2034772](LDAP/ldap_javaClass.png)       |
+| 2034818 | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                      | [2034818](LDAP/ldap_serialized_java.png) |
