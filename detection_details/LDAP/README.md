@@ -13,8 +13,8 @@ Multiple signatures have been created in order to detect the different stages of
 
 ## Outbound Request
 
-| sid     | msg                                                  | Detection Screenshot                               |
-|---------|------------------------------------------------------|----------------------------------------------------|
+| sid     | msg                                                  | Detection Screenshot                                 |
+|---------|------------------------------------------------------|------------------------------------------------------|
 | 2034704 | ET POLICY Anonymous LDAPv3 Bind Request Outbound     | [2034704](images/anon_ldap_with_payload_request.png) |
 | 2034812 | ET POLICY Non-Anonymous LDAPv3 Bind Request Outbound | [2034812](images/non-anon_ldap_request.png)          |
 
@@ -22,8 +22,8 @@ Multiple signatures have been created in order to detect the different stages of
 
 ## Successful Response
 
-| sid     | msg                                                             | Detection Screenshot                                |
-|---------|-----------------------------------------------------------------|-----------------------------------------------------|
+| sid     | msg                                                             | Detection Screenshot                                  |
+|---------|-----------------------------------------------------------------|-------------------------------------------------------|
 | 2034705 | ET POLICY Successful Anonymous LDAPv3 Bind Request Outbound     | [2034705](images/anon_ldap_with_payload_response.png) |
 | 2034771 | ET POLICY Successful Non-Anonymous LDAPv3 Bind Request Outbound | [2034771](images/non-anon_ldap_response.png)          |
 
@@ -34,8 +34,8 @@ Multiple signatures have been created in order to detect the different stages of
 
 These signatures were created based on observed malicious samples. 
 
-| sid     | msg                                                                       | Detection Screenshot                                         |
-|---------|---------------------------------------------------------------------------|--------------------------------------------------------------|
+| sid     | msg                                                                       | Detection Screenshot                                           |
+|---------|---------------------------------------------------------------------------|----------------------------------------------------------------|
 | 2034722 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response    | [2034722](images/anon_ldap_with_payload_response_payload.png)  |
 | 2034769 | ET ATTACK_RESPONSE Possible CVE-2021-44228 Payload via LDAPv3 Response M2 | [2034769](images/anon_ldap_with_payload_response_payload2.png) |
 
@@ -43,8 +43,8 @@ These signatures were created based on observed malicious samples.
 These Signatures are designed to detect broadly Java objects being returned from LDAP and have been created in effort 
 to reduce false negatives. 
 
-| sid     | msg                                                                         | Note                 | Detection Screenshot                     |
-|---------|-----------------------------------------------------------------------------|----------------------|------------------------------------------|
+| sid     | msg                                                                         | Note                 | Detection Screenshot                       |
+|---------|-----------------------------------------------------------------------------|----------------------|--------------------------------------------|
 | 2034770 | ET POLICY JavaClass Returned Via Anonymous Outbound LDAPv3 Bind Request     | depends on `2034704` | [2034770](images/ldap_javaClass.png)       |
 | 2034772 | ET POLICY JavaClass Returned Via Non-Anonymous Outbound LDAPv3 Bind Request | depends on `2034812` | [2034772](images/ldap_javaClass.png)       |
 | 2034818 | ET POLICY Serialized Java Object returned via LDAPv3 Response               |                      | [2034818](images/ldap_serialized_java.png) |

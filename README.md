@@ -272,15 +272,18 @@ This class of signatures is designed to detect when not using the latest version
                                                                             
 
 ## RMI
+Detailed RMI detection including screenshots of alerting traffic can be found in the 
+[RMI Detection Details](detection_details/RMI/README.md).
 
 | sid     | msg                                                  | Notes                |
 |---------|------------------------------------------------------|----------------------|
 | 2034718 | ET POLICY RMI Request Outbound                       | sets flowbit         |
-| 2034748 | ET POLICY Serialized Java Payload via RMI Response   | depends on `2034748` |
-| 2034749 | ET POLICY Unserialized Java Payload via RMI Response | depends on `2034748` |
+| 2034748 | ET POLICY Serialized Java Payload via RMI Response   | depends on `2034718` |
+| 2034749 | ET POLICY Unserialized Java Payload via RMI Response | depends on `2034718` |
 
 ## IIOP
-
+Detailed IIOP detection including screenshots of alerting traffic can be found in the 
+[IIOP Detection Details](detection_details/IIOP/README.md).
 | sid     | msg                                             | Notes                |
 |---------|-------------------------------------------------|----------------------|
 | 2034730 | ET POLICY GIOP/IIOP Request Outbound            | sets flowbit         |
