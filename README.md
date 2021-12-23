@@ -44,56 +44,56 @@ Inbound signatures are designed to be deployed "in front of" potential vulnerabl
 
 <details><Summary>Click to expand list of 48 Signatures</Summary>
 
-| sid     | msg                                                                                                |
-|---------|----------------------------------------------------------------------------------------------------|
-| 2034647 | ET EXPLOIT Apache log4j RCE Attempt (http ldap) (CVE-2021-44228)                                   |
-| 2034648 | ET EXPLOIT Apache log4j RCE Attempt (http rmi) (CVE-2021-44228)                                    |
-| 2034649 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldap) (CVE-2021-44228)                                    |
-| 2034650 | ET EXPLOIT Apache log4j RCE Attempt (tcp rmi) (CVE-2021-44228)                                     |
-| 2034651 | ET EXPLOIT Apache log4j RCE Attempt (udp ldap) (CVE-2021-44228)                                    |
-| 2034652 | ET EXPLOIT Apache log4j RCE Attempt (udp rmi) (CVE-2021-44228)                                     |
-| 2034653 | ET EXPLOIT Apache log4j RCE Attempt (udp dns) (CVE-2021-44228)                                     |
-| 2034654 | ET EXPLOIT Apache log4j RCE Attempt (tcp dns) (CVE-2021-44228)                                     |
-| 2034655 | ET EXPLOIT Apache log4j RCE Attempt (http dns) (CVE-2021-44228)                                    |
-| 2034656 | ET EXPLOIT Apache log4j RCE Attempt (udp ldaps) (CVE-2021-44228)                                   |
-| 2034657 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldaps) (CVE-2021-44228)                                   |
-| 2034658 | ET EXPLOIT Apache log4j RCE Attempt (http ldaps) (CVE-2021-44228)                                  |
-| 2034659 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M1 (CVE-2021-44228)                   |
-| 2034660 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M1 (CVE-2021-44228)                   |
-| 2034661 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (CVE-2021-44228)                       |
-| 2034662 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (CVE-2021-44228)                       |
-| 2034663 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol upper Bypass (CVE-2021-44228)          |
-| 2034664 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol upper Bypass (CVE-2021-44228)          |
-| 2034665 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol lower Bypass (CVE-2021-44228)          |
-| 2034666 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol lower Bypass (CVE-2021-44228)          |
-| 2034667 | ET EXPLOIT Apache log4j RCE Attempt (udp iiop) (CVE-2021-44228)                                    |
-| 2034668 | ET EXPLOIT Apache log4j RCE Attempt (tcp iiop) (CVE-2021-44228)                                    |
-| 2034671 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (CVE-2021-44228)             |
-| 2034672 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (CVE-2021-44228)             |
-| 2034673 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (CVE-2021-44228) |
-| 2034674 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (CVE-2021-44228) |
-| 2034676 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (CVE-2021-44228)    |
-| 2034699 | ET EXPLOIT Apache log4j RCE Attempt - AWS Access Key Disclosure (CVE-2021-44228)                   |
-| 2034700 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M2 (CVE-2021-44228)                   |
-| 2034701 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M2 (CVE-2021-44228)                   |
-| 2034702 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed (CVE-2021-44228)             |
-| 2034703 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed (CVE-2021-44228)             |
-| 2034706 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (tcp) (CVE-2021-44228)                          |
-| 2034707 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (udp) (CVE-2021-44228)                          |
-| 2034708 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (tcp) (CVE-2021-44228)                          |
-| 2034709 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (udp) (CVE-2021-44228)                          |
-| 2034710 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nis) (CVE-2021-44228)                            |
-| 2034711 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nis) (CVE-2021-44228)                            |
-| 2034712 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nds) (CVE-2021-44228)                            |
-| 2034713 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nds) (CVE-2021-44228)                            |
-| 2034714 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp corba) (CVE-2021-44228)                          |
-| 2034715 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp corba) (CVE-2021-44228)                          |
-| 2034716 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (CVE-2021-44228)                        |
-| 2034717 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (CVE-2021-44228)                        |
-| 2034808 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower TCP Bypass) (CVE-2021-44228)    | 
-| 2034809 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower UDP Bypass) (CVE-2021-44228)    |
-| 2034810 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper TCP Bypass) (CVE-2021-44228)    |  
-| 2034811 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper UDP Bypass) (CVE-2021-44228)    |   
+| sid     | msg                                                                                                         |
+|---------|-------------------------------------------------------------------------------------------------------------|
+| 2034647 | ET EXPLOIT Apache log4j RCE Attempt (http ldap) (CVE-2021-44228)                                            |
+| 2034648 | ET EXPLOIT Apache log4j RCE Attempt (http rmi) (CVE-2021-44228)                                             |
+| 2034649 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldap) (CVE-2021-44228)                                             |
+| 2034650 | ET EXPLOIT Apache log4j RCE Attempt (tcp rmi) (CVE-2021-44228)                                              |
+| 2034651 | ET EXPLOIT Apache log4j RCE Attempt (udp ldap) (CVE-2021-44228)                                             |
+| 2034652 | ET EXPLOIT Apache log4j RCE Attempt (udp rmi) (CVE-2021-44228)                                              |
+| 2034653 | ET EXPLOIT Apache log4j RCE Attempt (udp dns) (CVE-2021-44228)                                              |
+| 2034654 | ET EXPLOIT Apache log4j RCE Attempt (tcp dns) (CVE-2021-44228)                                              |
+| 2034655 | ET EXPLOIT Apache log4j RCE Attempt (http dns) (CVE-2021-44228)                                             |
+| 2034656 | ET EXPLOIT Apache log4j RCE Attempt (udp ldaps) (CVE-2021-44228)                                            |
+| 2034657 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldaps) (CVE-2021-44228)                                            |
+| 2034658 | ET EXPLOIT Apache log4j RCE Attempt (http ldaps) (CVE-2021-44228)                                           |
+| 2034659 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M1 (CVE-2021-44228)                            |
+| 2034660 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M1 (CVE-2021-44228)                            |
+| 2034661 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol TCP (CVE-2021-44228)                            |
+| 2034662 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol UDP (CVE-2021-44228)                            |
+| 2034663 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper TCP Bypass) (CVE-2021-44228)	            |
+| 2034664 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper UDP Bypass) (Outbound) (CVE-2021-44228)	 |
+| 2034665 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower TCP Bypass) (CVE-2021-44228)             |
+| 2034666 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol lower Bypass (udp) (CVE-2021-44228)             |
+| 2034667 | ET EXPLOIT Apache log4j RCE Attempt (udp iiop) (CVE-2021-44228)                                             |
+| 2034668 | ET EXPLOIT Apache log4j RCE Attempt (tcp iiop) (CVE-2021-44228)                                             |
+| 2034671 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (tcp) (CVE-2021-44228)	               |
+| 2034672 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (udp) (CVE-2021-44228)                |
+| 2034673 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (tcp) (CVE-2021-44228)    |
+| 2034674 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (udp) (CVE-2021-44228)    |
+| 2034676 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (CVE-2021-44228)             |
+| 2034699 | ET EXPLOIT Apache log4j RCE Attempt - AWS Access Key Disclosure (CVE-2021-44228)                            |
+| 2034700 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M2 (CVE-2021-44228)                            |
+| 2034701 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M2 (CVE-2021-44228)                            |
+| 2034702 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed (tcp) (CVE-2021-44228)                |
+| 2034703 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed (udp) (CVE-2021-44228)	               |
+| 2034706 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (tcp) (CVE-2021-44228)                                   |
+| 2034707 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (udp) (CVE-2021-44228)                                   |
+| 2034708 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (tcp) (CVE-2021-44228)                                   |
+| 2034709 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (udp) (CVE-2021-44228)                                   |
+| 2034710 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nis) (CVE-2021-44228)                                     |
+| 2034711 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nis) (CVE-2021-44228)                                     |
+| 2034712 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nds) (CVE-2021-44228)                                     |
+| 2034713 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nds) (CVE-2021-44228)                                     |
+| 2034714 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp corba) (CVE-2021-44228)                                   |
+| 2034715 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp corba) (CVE-2021-44228)                                   |
+| 2034716 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (tcp) (CVE-2021-44228)                           |
+| 2034717 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (udp) (CVE-2021-44228)                           |
+| 2034808 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower TCP Bypass) (CVE-2021-44228)             | 
+| 2034809 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower UDP Bypass) (CVE-2021-44228)             |
+| 2034810 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper TCP Bypass) (CVE-2021-44228)             |  
+| 2034811 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper UDP Bypass) (CVE-2021-44228)             |   
             
 </details>
 
@@ -114,51 +114,51 @@ Engine's configuration.
 
 <details><Summary>Click to expand list of 43 Signatures</Summary>
 
-| sid     | msg                                                                                                           |
-|---------|---------------------------------------------------------------------------------------------------------------|
-| 2034750 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (Outbound) (CVE-2021-44228)                        |
-| 2034751 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (Outbound) (CVE-2021-44228)                        |
-| 2034758 | ET EXPLOIT Apache log4j RCE Attempt (http rmi) (Outbound)  (CVE-2021-44228)                                   |
-| 2034759 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldap) (Outbound) (CVE-2021-44228)                                    |
-| 2034760 | ET EXPLOIT Apache log4j RCE Attempt (tcp rmi) (Outbound) (CVE-2021-44228)                                     |
-| 2034761 | ET EXPLOIT Apache log4j RCE Attempt (udp ldap) (Outbound) (CVE-2021-44228)                                    |
-| 2034762 | ET EXPLOIT Apache log4j RCE Attempt (udp rmi) (Outbound) (CVE-2021-44228)                                     |
-| 2034763 | ET EXPLOIT Apache log4j RCE Attempt (udp dns) (Outbound) (CVE-2021-44228)                                     |
-| 2034764 | ET EXPLOIT Apache log4j RCE Attempt (tcp dns) (Outbound) (CVE-2021-44228)                                     |
-| 2034765 | ET EXPLOIT Apache log4j RCE Attempt (http dns) (Outbound) (CVE-2021-44228)                                    |
-| 2034766 | ET EXPLOIT Apache log4j RCE Attempt (udp ldaps) (Outbound) (CVE-2021-44228)                                   |
-| 2034767 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldaps) (Outbound) (CVE-2021-44228)                                   |
-| 2034768 | ET EXPLOIT Apache log4j RCE Attempt (http ldaps) (Outbound) (CVE-2021-44228)                                  |
-| 2034781 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M1 (Outbound) (CVE-2021-44228)                   |
-| 2034782 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M1 (Outbound) (CVE-2021-44228)                   |
-| 2034783 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (Outbound) (CVE-2021-44228)                       |
-| 2034784 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (Outbound) (CVE-2021-44228)                       |
-| 2034785 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol upper Bypass (Outbound) (CVE-2021-44228)          |
-| 2034786 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed M2 (Outbound) (CVE-2021-44228) |
-| 2034787 | ET EXPLOIT Apache log4j RCE Attempt (tcp iiop) (Outbound) (CVE-2021-44228)                                    |
-| 2034788 | ET EXPLOIT Apache log4j RCE Attempt (udp iiop) (Outbound) (CVE-2021-44228)                                    |
-| 2034789 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp corba) (Outbound) (CVE-2021-44228)                          |
-| 2034790 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp corba) (Outbound) (CVE-2021-44228)                          |
-| 2034791 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nds) (Outbound) (CVE-2021-44228)                            |
-| 2034792 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nds) (Outbound) (CVE-2021-44228)                            |
-| 2034793 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nis) (Outbound) (CVE-2021-44228)                            |
-| 2034794 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nis) (Outbound) (CVE-2021-44228)                            |
-| 2034795 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (udp) (Outbound) (CVE-2021-44228)                          |
-| 2034796 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (tcp) (Outbound) (CVE-2021-44228)                          |
-| 2034797 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (udp) (Outbound) (CVE-2021-44228)                          |
-| 2034798 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (tcp) (Outbound) (CVE-2021-44228)                          |
-| 2034799 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M2 (Outbound) (CVE-2021-44228)                   |
-| 2034800 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M2 (Outbound) (CVE-2021-44228)                   |
-| 2034801 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol upper Bypass (Outbound) (CVE-2021-44228)          |
-| 2034802 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol lower Bypass (Outbound) (CVE-2021-44228)          |
-| 2034803 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol lower Bypass (Outbound) (CVE-2021-44228)          |
-| 2034804 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (Outbound) (CVE-2021-44228)             |
-| 2034805 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed M2 (Outbound) (CVE-2021-44228) |
-| 2034806 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (Outbound) (CVE-2021-44228)    |
-| 2034807 | ET EXPLOIT Apache log4j RCE Attempt - AWS Access Key Disclosure (Outbound) (CVE-2021-44228)                   |
-| 2034834 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (udp) (Outbound) (CVE-2021-44228)       |
-| 2034835 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (tcp) (Outbound) (CVE-2021-44228)       |
-| 2034836 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/17 Obfuscation Observed (Outbound) (CVE-2021-44228)             |
+| sid     | msg                                                                                                                 |
+|---------|---------------------------------------------------------------------------------------------------------------------|
+| 2034750 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (udp) (Outbound) (CVE-2021-44228)                        |
+| 2034751 | ET EXPLOIT Possible Apache log4j RCE Attempt - Base64 jndi (tcp) (Outbound) (CVE-2021-44228)                        |
+| 2034758 | ET EXPLOIT Apache log4j RCE Attempt (http rmi) (Outbound)  (CVE-2021-44228)                                         |
+| 2034759 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldap) (Outbound) (CVE-2021-44228)                                          |
+| 2034760 | ET EXPLOIT Apache log4j RCE Attempt (tcp rmi) (Outbound) (CVE-2021-44228)                                           |
+| 2034761 | ET EXPLOIT Apache log4j RCE Attempt (udp ldap) (Outbound) (CVE-2021-44228)                                          |
+| 2034762 | ET EXPLOIT Apache log4j RCE Attempt (udp rmi) (Outbound) (CVE-2021-44228)                                           |
+| 2034763 | ET EXPLOIT Apache log4j RCE Attempt (udp dns) (Outbound) (CVE-2021-44228)                                           |
+| 2034764 | ET EXPLOIT Apache log4j RCE Attempt (tcp dns) (Outbound) (CVE-2021-44228)                                           |
+| 2034765 | ET EXPLOIT Apache log4j RCE Attempt (http dns) (Outbound) (CVE-2021-44228)                                          |
+| 2034766 | ET EXPLOIT Apache log4j RCE Attempt (udp ldaps) (Outbound) (CVE-2021-44228)                                         |
+| 2034767 | ET EXPLOIT Apache log4j RCE Attempt (tcp ldaps) (Outbound) (CVE-2021-44228)                                         |
+| 2034768 | ET EXPLOIT Apache log4j RCE Attempt (http ldaps) (Outbound) (CVE-2021-44228)                                        |
+| 2034781 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M1 (Outbound) (CVE-2021-44228)                         |
+| 2034782 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M1 (Outbound) (CVE-2021-44228)                         |
+| 2034783 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol TCP (Outbound) (CVE-2021-44228)                         |
+| 2034784 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol UDP (Outbound) (CVE-2021-44228)                         |
+| 2034785 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper TCP Bypass) (Outbound) (CVE-2021-44228)          |
+| 2034786 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (tcp) (Outbound) (CVE-2021-44228) |
+| 2034787 | ET EXPLOIT Apache log4j RCE Attempt (tcp iiop) (Outbound) (CVE-2021-44228)                                          |
+| 2034788 | ET EXPLOIT Apache log4j RCE Attempt (udp iiop) (Outbound) (CVE-2021-44228)                                          |
+| 2034789 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp corba) (Outbound) (CVE-2021-44228)                                |
+| 2034790 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp corba) (Outbound) (CVE-2021-44228)                                |
+| 2034791 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nds) (Outbound) (CVE-2021-44228)                                  |
+| 2034792 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nds) (Outbound) (CVE-2021-44228)                                  |
+| 2034793 | ET EXPLOIT Possible Apache log4j RCE Attempt (udp nis) (Outbound) (CVE-2021-44228)                                  |
+| 2034794 | ET EXPLOIT Possible Apache log4j RCE Attempt (tcp nis) (Outbound) (CVE-2021-44228)                                  |
+| 2034795 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (udp) (Outbound) (CVE-2021-44228)                                |
+| 2034796 | ET EXPLOIT Apache log4j RCE Attempt - Nested upper (tcp) (Outbound) (CVE-2021-44228)                                |
+| 2034797 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (udp) (Outbound) (CVE-2021-44228)                                |
+| 2034798 | ET EXPLOIT Apache log4j RCE Attempt - Nested lower (tcp) (Outbound) (CVE-2021-44228)                                |
+| 2034799 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper UDP Bypass M2 (Outbound) (CVE-2021-44228)                         |
+| 2034800 | ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M2 (Outbound) (CVE-2021-44228)                         |
+| 2034801 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (upper UDP Bypass) (Outbound) (CVE-2021-44228)          |
+| 2034802 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower TCP Bypass) (Outbound) (CVE-2021-44228)          |
+| 2034803 | ET HUNTING Possible Apache log4j RCE Attempt - Any Protocol (lower UDP Bypass) (Outbound) (CVE-2021-44228)          |
+| 2034804 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (udp) (Outbound) (CVE-2021-44228)	            |
+| 2034805 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed M2 (udp) (Outbound) (CVE-2021-44228) |
+| 2034806 | ET EXPLOIT Possible Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (Outbound) (CVE-2021-44228)          |
+| 2034807 | ET EXPLOIT Apache log4j RCE Attempt - AWS Access Key Disclosure (Outbound) (CVE-2021-44228)                         |
+| 2034834 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed (udp) (Outbound) (CVE-2021-44228)	            |
+| 2034835 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/12 Obfuscation Observed (tcp) (Outbound) (CVE-2021-44228)	            |
+| 2034836 | ET EXPLOIT Apache log4j RCE Attempt - 2021/12/13 Obfuscation Observed (tcp) (Outbound) (CVE-2021-44228)	            |
 
 </details>
 
@@ -208,7 +208,7 @@ Emerging Threats has created the following detections for commonly used Payload 
 ## LDAP
 
 Detailed LDAP detection including screenshots of alerting traffic can be found in the 
-[LDAP Detection Details](detection_details/LDAP.md).  These rules are designed to alert on the connection to and 
+[LDAP Detection Details](detection_details/LDAP/README.md).  These rules are designed to alert on the connection to and 
 response from "malicious ldap" servers. 
 
 | sid     | msg                                                                         | Notes                |
@@ -239,7 +239,7 @@ These signatures, which have existed for several years, alert on Java downloadin
 data from a webserver. This method was observed during the initial use of the `jdni:ldap://` attack string which would 
 result in the fetching of a Java payload via HTTP/HTTPS.
 
-Details of this detection method can be found in the [Java Payloads Detection Details](detection_details/JavaPayloads.md) 
+Details of this detection method can be found in the [Java Payloads Detection Details](detection_details/Java_Class_Download/README.md) 
 
 | sid     | msg                                                     | Notes                                |
 |---------|---------------------------------------------------------|--------------------------------------|

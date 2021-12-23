@@ -3,7 +3,7 @@ During the RCE path for Log4Shell attempts, it is common to see the vulnerable a
 a webserver.  The signatures detailed below attempt to detect this behavior.   
 
 # Example Traffic
-![](Java_Class_Download/download.png)
+![](images/download.png)
 
 # Detection Logic
 In order to detect outbound requests for a Java Class, a flowbit will be used to first identify an outbound request 
@@ -40,8 +40,8 @@ response
 
 | sid     | msg                                                     | Flowbit Required              | Detection Screenshot                       | 
 |---------|---------------------------------------------------------|-------------------------------|--------------------------------------------|
-| 2014474 | ET INFO JAVA - Java Class Download                      | ET.http.javaclient            | [2014474](Java_Class_Download/2014474.png) |
-| 2014475 | ET INFO JAVA - Java Class Download By Vulnerable Client | ET.http.javaclient.vulnerable | [2014475](Java_Class_Download/2014475.png) |
+| 2014474 | ET INFO JAVA - Java Class Download                      | ET.http.javaclient            | [2014474](images/2014474.png) |
+| 2014475 | ET INFO JAVA - Java Class Download By Vulnerable Client | ET.http.javaclient.vulnerable | [2014475](images/2014475.png) |
 | 2016502 | ET INFO Java Serialized Data via vulnerable client      | ET.http.javaclient.vulnerable |                                            |
 | 2016503 | ET INFO Java Serialized Data                            | ET.http.javaclient            |                                            |
 
